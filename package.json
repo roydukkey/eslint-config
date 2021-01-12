@@ -1,0 +1,30 @@
+{
+	"name": "@roydukkey/eslint-config",
+	"description": "My strict configuration for eslint with TypeScript.",
+	"version": "1.0.0",
+	"author": {
+		"name": "roydukkey",
+		"email": "contact@changelog.me",
+		"url": "http://changelog.me"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/roydukkey/eslint-config/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/roydukkey/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/roydukkey/eslint-config/issues"
+	},
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"main": "./index.js",
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": ">=4",
+		"@typescript-eslint/parser": ">=4",
+		"eslint": ">=7",
+		"eslint-plugin-tsdoc": ">=0.2.10"
+	}
+}

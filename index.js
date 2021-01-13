@@ -102,7 +102,6 @@ module.exports = {
 		'@typescript-eslint/no-confusing-non-null-assertion': 'error',
 		'@typescript-eslint/no-dynamic-delete': 'error',
 		'@typescript-eslint/no-implicit-any-catch': 'error',
-		'@typescript-eslint/no-invalid-this': 'error',
 		'@typescript-eslint/no-invalid-void-type': 'error',
 		'@typescript-eslint/no-loop-func': 'error',
 		'@typescript-eslint/no-loss-of-precision': 'error',
@@ -152,7 +151,6 @@ module.exports = {
 		}],
 		'new-parens': 'error',
 		'no-extra-parens': 'off',
-		'no-invalid-this': 'off',
 		'no-loop-func': 'off',
 		'no-loss-of-precision': 'off',
 		'no-throw-literal': 'off',
@@ -183,7 +181,9 @@ module.exports = {
 				'@typescript-eslint/explicit-member-accessibility': ['error', {
 					accessibility: 'no-public'
 				}],
-				'@typescript-eslint/no-var-requires': 'error'
+				'@typescript-eslint/no-invalid-this': 'error',
+				'@typescript-eslint/no-var-requires': 'error',
+				'no-invalid-this': 'off'
 			}
 		}
 	]

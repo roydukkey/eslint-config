@@ -7,10 +7,15 @@ Use this if you like, but I'll probably make changes and might not accept any.
 
 ## Install
 
-Install the package:
+Install the packages:
 
 ```bash
-npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-tsdoc
+yarn add --dev \
+@roydukkey/eslint-config \
+@typescript-eslint/eslint-plugin \
+@typescript-eslint/parser \
+eslint \
+eslint-plugin-tsdoc
 ```
 
 ## Configuration

@@ -107,6 +107,9 @@ module.exports = {
 		'@typescript-eslint/no-loss-of-precision': 'error',
 		'@typescript-eslint/no-parameter-properties': 'error',
 		'@typescript-eslint/no-require-imports': 'error',
+		'@typescript-eslint/no-this-alias': ['error', {
+			'allowDestructuring': true
+		}],
 		'@typescript-eslint/no-throw-literal': 'error',
 		'@typescript-eslint/no-type-alias': 'error',
 		'@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',

@@ -2,7 +2,11 @@
 
 [//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.3...master     <<)
+[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.4...master     <<)
+
+## [1.0.4](https://github.com/roydukkey/eslint-config/compare/v1.0.3...v1.0.4)
+
+* Update `@typescript-eslint/member-ordering`
 
 ## [1.0.3](https://github.com/roydukkey/eslint-config/compare/v1.0.2...v1.0.3)
 

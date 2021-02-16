@@ -29,6 +29,7 @@ module.exports = {
 		'@typescript-eslint/consistent-type-imports': 'error',
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-member-accessibility': 'off',
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		'@typescript-eslint/member-delimiter-style': 'error',
 		'@typescript-eslint/member-ordering': ['error', {
 			default: {
@@ -184,6 +185,7 @@ module.exports = {
 				'@typescript-eslint/explicit-member-accessibility': ['error', {
 					accessibility: 'no-public'
 				}],
+				'@typescript-eslint/explicit-module-boundary-types': ['error'],
 				'@typescript-eslint/no-invalid-this': 'error',
 				'@typescript-eslint/no-var-requires': 'error',
 				'no-invalid-this': 'off'

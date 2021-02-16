@@ -2,7 +2,11 @@
 
 [//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.4...master     <<)
+[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.5...master     <<)
+
+## [1.0.5](https://github.com/roydukkey/eslint-config/compare/v1.0.4...v1.0.5)
+
+* Move `@typescript-eslint/explicit-module-boundary-types` to TS override
 
 ## [1.0.4](https://github.com/roydukkey/eslint-config/compare/v1.0.3...v1.0.4)
 

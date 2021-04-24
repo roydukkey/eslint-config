@@ -4,6 +4,10 @@
 
 [//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.5...master     <<)
 
+## [1.0.6](https://github.com/roydukkey/eslint-config/compare/v1.0.5...v1.0.6)
+
+* Update `@typescript-eslint/no-type-alias` to allow conditional types
+
 ## [1.0.5](https://github.com/roydukkey/eslint-config/compare/v1.0.4...v1.0.5)
 
 * Move `@typescript-eslint/explicit-module-boundary-types` to TS override

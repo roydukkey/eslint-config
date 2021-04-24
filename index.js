@@ -112,7 +112,9 @@ module.exports = {
 			'allowDestructuring': true
 		}],
 		'@typescript-eslint/no-throw-literal': 'error',
-		'@typescript-eslint/no-type-alias': 'error',
+		'@typescript-eslint/no-type-alias': ['error', {
+			'allowConditionalTypes': true
+		}],
 		'@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
 		'@typescript-eslint/no-unnecessary-condition': 'error',
 		'@typescript-eslint/no-unnecessary-qualifier': 'error',

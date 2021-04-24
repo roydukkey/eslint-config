@@ -2,7 +2,11 @@
 
 [//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.5...master     <<)
+[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.7...master     <<)
+
+## [1.0.7](https://github.com/roydukkey/eslint-config/compare/v1.0.6...v1.0.7)
+
+* Fix conditional types configuration for `@typescript-eslint/no-type-alias`
 
 ## [1.0.6](https://github.com/roydukkey/eslint-config/compare/v1.0.5...v1.0.6)
 

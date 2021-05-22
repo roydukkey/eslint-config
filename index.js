@@ -113,6 +113,7 @@ module.exports = {
 		}],
 		'@typescript-eslint/no-throw-literal': 'error',
 		'@typescript-eslint/no-type-alias': ['error', {
+			'allowAliases': 'in-unions-and-intersections',
 			'allowConditionalTypes': 'always'
 		}],
 		'@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',

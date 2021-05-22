@@ -136,6 +136,7 @@ module.exports = {
 		'@typescript-eslint/require-array-sort-compare': 'error',
 		'@typescript-eslint/require-await': 'error',
 		'@typescript-eslint/semi': 'error',
+		'@typescript-eslint/space-before-function-paren': 'error',
 		'@typescript-eslint/type-annotation-spacing': 'error',
 		'arrow-parens': ['error', 'always'],
 		'arrow-spacing': ['error', {
@@ -171,7 +172,7 @@ module.exports = {
 			memberSyntaxSortOrder: ['single', 'multiple', 'all', 'none']
 		}],
 		'space-before-blocks': ['error', 'always'],
-		'space-before-function-paren': ['error', 'always'],
+		'space-before-function-paren': 'off',
 		'padded-blocks': ['error', {
 			classes: 'always'
 		}],

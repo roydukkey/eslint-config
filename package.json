@@ -1,7 +1,7 @@
 {
 	"name": "@roydukkey/eslint-config",
 	"description": "My strict configuration for eslint with TypeScript.",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"author": {
 		"name": "roydukkey",
 		"email": "contact@changelog.me",

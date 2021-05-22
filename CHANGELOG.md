@@ -2,7 +2,12 @@
 
 [//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.7...master     <<)
+[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.8...master     <<)
+
+## [1.0.8](https://github.com/roydukkey/eslint-config/compare/v1.0.7...v1.0.8)
+
+* Add TypeScript support for `space-before-function-paren`
+* Update to allow aliases in unions and intersections for `@typescript-eslint/no-type-alias`
 
 ## [1.0.7](https://github.com/roydukkey/eslint-config/compare/v1.0.6...v1.0.7)
 

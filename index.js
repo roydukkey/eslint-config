@@ -184,7 +184,7 @@ module.exports = {
 
 	overrides: [
 		{
-			files: ['*.ts', '*.tsx'],
+			files: ['*.ts?(x)'],
 
 			rules: {
 				'@typescript-eslint/explicit-function-return-type': 'error',

@@ -2,7 +2,13 @@
 
 [//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.8...master     <<)
+[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.9...master     <<)
+
+## [1.0.9](https://github.com/roydukkey/eslint-config/compare/v1.0.8...v1.0.9)
+
+* Add support for `prefer-template`
+* Update `no-useless-concat` from `'warn'` to `'error'`
+* Simplify override files pattern
 
 ## [1.0.8](https://github.com/roydukkey/eslint-config/compare/v1.0.7...v1.0.8)
 

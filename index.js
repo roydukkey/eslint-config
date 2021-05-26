@@ -162,6 +162,7 @@ module.exports = {
 		'no-loop-func': 'off',
 		'no-loss-of-precision': 'off',
 		'no-throw-literal': 'off',
+		'no-useless-concat': 'error',
 		'object-curly-spacing': ['error', 'always'],
 		quotes: 'off',
 		'require-await': 'off',

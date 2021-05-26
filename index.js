@@ -177,6 +177,7 @@ module.exports = {
 		'padded-blocks': ['error', {
 			classes: 'always'
 		}],
+		'prefer-template': 'error',
 		'tsdoc/syntax': 'warn'
 	},
 

@@ -2,7 +2,12 @@
 
 [//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.9...master     <<)
+[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.10...master     <<)
+
+## [1.0.10](https://github.com/roydukkey/eslint-config/compare/v1.0.9...v1.0.10)
+
+* Configure Enum member naming convention to pascal case
+* Allow bitwise expressions in Enums
 
 ## [1.0.9](https://github.com/roydukkey/eslint-config/compare/v1.0.8...v1.0.9)
 

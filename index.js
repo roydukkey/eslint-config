@@ -84,7 +84,7 @@ module.exports = {
 			format: ['camelCase'],
 			leadingUnderscore: 'require'
 		}, {
-			selector: 'typeLike',
+			selector: ['typeLike', 'enumMember'],
 			format: ['PascalCase']
 		}, {
 			selector: 'property',

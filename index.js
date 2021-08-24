@@ -126,7 +126,9 @@ module.exports = {
 		'@typescript-eslint/prefer-for-of': 'error',
 		'@typescript-eslint/prefer-function-type': 'off',
 		'@typescript-eslint/prefer-includes': 'error',
-		'@typescript-eslint/prefer-literal-enum-member': 'error',
+		'@typescript-eslint/prefer-literal-enum-member': ['error', {
+			allowBitwiseExpressions: true
+		}],
 		'@typescript-eslint/prefer-nullish-coalescing': 'error',
 		'@typescript-eslint/prefer-optional-chain': 'error',
 		'@typescript-eslint/prefer-readonly': 'error',

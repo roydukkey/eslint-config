@@ -1,12 +1,10 @@
 module.exports = {
 
-	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		project: './**/tsconfig.json'
 	},
 
 	plugins: [
-		'@typescript-eslint',
 		'eslint-plugin-tsdoc'
 	],
 
@@ -99,18 +97,20 @@ module.exports = {
 				match: false
 			}
 		}],
+		'no-extra-parens': 'off',
 		'@typescript-eslint/no-extra-parens': 'error',
 		'@typescript-eslint/no-confusing-non-null-assertion': 'error',
 		'@typescript-eslint/no-dynamic-delete': 'error',
 		'@typescript-eslint/no-implicit-any-catch': 'error',
 		'@typescript-eslint/no-invalid-void-type': 'error',
+		'no-loop-func': 'off',
 		'@typescript-eslint/no-loop-func': 'error',
-		'@typescript-eslint/no-loss-of-precision': 'error',
 		'@typescript-eslint/no-parameter-properties': 'error',
 		'@typescript-eslint/no-require-imports': 'error',
 		'@typescript-eslint/no-this-alias': ['error', {
 			'allowDestructuring': true
 		}],
+		'no-throw-literal': 'off',
 		'@typescript-eslint/no-throw-literal': 'error',
 		'@typescript-eslint/no-type-alias': ['error', {
 			'allowAliases': 'in-unions-and-intersections',
@@ -120,7 +120,6 @@ module.exports = {
 		'@typescript-eslint/no-unnecessary-condition': 'error',
 		'@typescript-eslint/no-unnecessary-qualifier': 'error',
 		'@typescript-eslint/no-unnecessary-type-arguments': 'error',
-		'@typescript-eslint/no-unnecessary-type-constraint': 'error',
 		'@typescript-eslint/no-var-requires': 'off',
 		'@typescript-eslint/prefer-enum-initializers': 'error',
 		'@typescript-eslint/prefer-for-of': 'error',
@@ -135,10 +134,12 @@ module.exports = {
 		'@typescript-eslint/prefer-reduce-type-parameter': 'error',
 		'@typescript-eslint/prefer-string-starts-ends-with': 'error',
 		'@typescript-eslint/promise-function-async': 'error',
+		quotes: 'off',
 		'@typescript-eslint/quotes': ['error', 'single'],
 		'@typescript-eslint/require-array-sort-compare': 'error',
-		'@typescript-eslint/require-await': 'error',
+		semi: 'off',
 		'@typescript-eslint/semi': 'error',
+		'space-before-function-paren': 'off',
 		'@typescript-eslint/space-before-function-paren': 'error',
 		'@typescript-eslint/type-annotation-spacing': 'error',
 		'arrow-parens': ['error', 'always'],
@@ -160,15 +161,8 @@ module.exports = {
 			'exceptAfterSingleLine': true
 		}],
 		'new-parens': 'error',
-		'no-extra-parens': 'off',
-		'no-loop-func': 'off',
-		'no-loss-of-precision': 'off',
-		'no-throw-literal': 'off',
 		'no-useless-concat': 'error',
 		'object-curly-spacing': ['error', 'always'],
-		quotes: 'off',
-		'require-await': 'off',
-		semi: 'off',
 		'sort-imports': ['error', {
 			ignoreCase: false,
 			ignoreDeclarationSort: false,
@@ -176,7 +170,6 @@ module.exports = {
 			memberSyntaxSortOrder: ['single', 'multiple', 'all', 'none']
 		}],
 		'space-before-blocks': ['error', 'always'],
-		'space-before-function-paren': 'off',
 		'padded-blocks': ['error', {
 			classes: 'always'
 		}],

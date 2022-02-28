@@ -1,8 +1,11 @@
 # Changelog
 
-[//]: # (>>   The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings   <<)
+<!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v1.0.11...master) -->
 
-[//]: # (>>   ## [UNRELEASED]https://github.com/roydukkey/eslint-config/compare/v1.0.10...master     <<)
+## [1.0.11](https://github.com/roydukkey/eslint-config/compare/v1.0.10...v1.0.11)
+
+* Remove extending redundancies
 
 ## [1.0.10](https://github.com/roydukkey/eslint-config/compare/v1.0.9...v1.0.10)
 

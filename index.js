@@ -161,6 +161,9 @@ module.exports = {
 			'exceptAfterSingleLine': true
 		}],
 		'new-parens': 'error',
+		'no-empty': ['error', {
+			allowEmptyCatch: true
+		}],
 		'no-useless-concat': 'error',
 		'object-curly-spacing': ['error', 'always'],
 		'sort-imports': ['error', {

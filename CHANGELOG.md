@@ -3,6 +3,10 @@
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
 <!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v1.0.12...master) -->
 
+## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v1.0.12...master)
+
+* Update `parserOptions` to seek sub-extension configs (e.g. `tsconfig.eslint.json`).
+
 ## [1.0.12](https://github.com/roydukkey/eslint-config/compare/v1.0.11...v1.0.12)
 
 * Allow empty catch for `no-empty`

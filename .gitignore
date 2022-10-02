@@ -6,9 +6,12 @@
 # Package Managers
 node_modules
 npm-debug.log
-
-# Build Artifacts
 *.lock.json
 *-lock.json
-*.lock
+*.tgz
+
+# Build Artifacts
+dist
+package
 *.backup
+*.cache

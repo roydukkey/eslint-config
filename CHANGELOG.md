@@ -1,11 +1,15 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v1.0.13...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.0...master) -->
 
-## [1.0.13](https://github.com/roydukkey/eslint-config/compare/v1.0.12...1.0.13)
+## [2.0.0](https://github.com/roydukkey/eslint-config/compare/v1.0.13...v2.0.0)
 
-* Update `parserOptions` to seek sub-extension configs (e.g. `tsconfig.eslint.json`).
+* Entire restructure and reevaluation of the applied rules and options
+
+## [1.0.13](https://github.com/roydukkey/eslint-config/compare/v1.0.12...v1.0.13)
+
+* Update `parserOptions` to seek sub-extension configs (e.g. `tsconfig.eslint.json`)
 
 ## [1.0.12](https://github.com/roydukkey/eslint-config/compare/v1.0.11...v1.0.12)
 

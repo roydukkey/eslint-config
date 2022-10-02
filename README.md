@@ -22,8 +22,22 @@ eslint-plugin-tsdoc
 
 ```json
 "eslintConfig": {
-	"extends": [
-		"@roydukkey/eslint-config"
-	]
+  "extends": [
+    "@roydukkey/eslint-config"
+  ]
+}
+```
+
+## TypeScript Configuration
+
+That this package will not use the `tsconfig.json` and instead [only searches for `tsconfig.eslint.json`](https://github.com/roydukkey/eslint-config/blob/master/src/index.cjs#L20) files. This provides better support for different monorepos. You can read more about this on [typescript-eslint.io](https://typescript-eslint.io/docs/linting/typed-linting/monorepos).
+
+Also, `@typescript-eslint/recommended-requiring-type-checking` is applied so don't forget to target the proper environments. For example, the following configuration targets Node:
+
+```json
+"eslintConfig": {
+  "env": {
+    "node": true
+  }
 }
 ```

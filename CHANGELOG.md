@@ -1,7 +1,11 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.0...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.1...master) -->
+
+## [2.0.1](https://github.com/roydukkey/eslint-config/compare/v2.0.0...v2.0.1)
+
+* Fix incorrect engine requirements
 
 ## [2.0.0](https://github.com/roydukkey/eslint-config/compare/v1.0.13...v2.0.0)
 

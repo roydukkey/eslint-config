@@ -1,7 +1,7 @@
 {
 	"name": "@roydukkey/eslint-config",
 	"description": "My strict configuration for eslint with TypeScript.",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"author": {
 		"name": "roydukkey",
 		"email": "contact@changelog.me",
@@ -46,9 +46,7 @@
 		"eslint-plugin-tsdoc": ">=0.2.10"
 	},
 	"engines": {
-		"node": ">=16",
-		"npm": "please-use-yarn",
-		"yarn": ">= 1.22.0"
+		"node": ">=16"
 	},
 	"scripts": {
 		"clean-package": "clean-package",
@@ -63,8 +61,6 @@
 		"extends": "clean-package/common",
 		"indent": "\t",
 		"remove": [
-			"engines.npm",
-			"engines.yarn",
 			"scripts"
 		]
 	},

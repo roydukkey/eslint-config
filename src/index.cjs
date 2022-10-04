@@ -20,6 +20,10 @@ module.exports = {
 		project: './**/tsconfig.eslint.json'
 	},
 
+	ignorePatterns: [
+		'dist'
+	],
+
 	rules: {
 		// Overrides '@typescript-eslint/recommended'
 		...transformWarningsToErrors(configs.recommended.rules),

@@ -1,7 +1,11 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.2...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.3...master) -->
+
+## [2.0.3](https://github.com/roydukkey/eslint-config/compare/v2.0.2...v2.0.3)
+
+* Disable `@typescript-eslint/no-unsafe-call` for javascript files
 
 ## [2.0.2](https://github.com/roydukkey/eslint-config/compare/v2.0.1...v2.0.2)
 

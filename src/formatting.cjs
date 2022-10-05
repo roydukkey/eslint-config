@@ -40,7 +40,7 @@ module.exports = {
 		ignoreCase: false,
 		ignoreDeclarationSort: false,
 		ignoreMemberSort: false,
-		memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single']
+		memberSyntaxSortOrder: ['single', 'multiple', 'all', 'none']
 	}],
 	'space-before-blocks': ['error', 'always'],
 	'@typescript-eslint/type-annotation-spacing': 'error'

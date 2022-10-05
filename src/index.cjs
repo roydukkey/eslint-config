@@ -7,7 +7,6 @@ module.exports = {
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:@typescript-eslint/recommended-requiring-type-checking',
 		'plugin:@typescript-eslint/strict'
 	],
 
@@ -27,9 +26,6 @@ module.exports = {
 	rules: {
 		// Overrides '@typescript-eslint/recommended'
 		...transformWarningsToErrors(configs.recommended.rules),
-
-		// Overrides '@typescript-eslint/recommended-requiring-type-checking'
-		'@typescript-eslint/restrict-template-expressions': 'off',
 
 		// Overrides 'plugin:@typescript-eslint/strict'
 		...transformWarningsToErrors(configs.strict.rules),
@@ -75,17 +71,6 @@ module.exports = {
 
 	overrides: [
 		{
-			files: ['*.?(c)js'],
-			rules: {
-				// Overrides '@typescript-eslint/recommended-requiring-type-checking'
-				'@typescript-eslint/no-unsafe-argument': 'off',
-				'@typescript-eslint/no-unsafe-assignment': 'off',
-				'@typescript-eslint/no-unsafe-call': 'off',
-				'@typescript-eslint/no-unsafe-member-access': 'off',
-				'@typescript-eslint/no-unsafe-return': 'off'
-			}
-		},
-		{
 			files: ['*.c{j,t}s'],
 			rules: {
 				// Overrides '@typescript-eslint/recommended'
@@ -97,7 +82,13 @@ module.exports = {
 		},
 		{
 			files: ['*.ts?(x)', '*.{m,c}ts'],
+			extends: [
+				'plugin:@typescript-eslint/recommended-requiring-type-checking'
+			],
 			rules: {
+				// Overrides '@typescript-eslint/recommended-requiring-type-checking'
+				'@typescript-eslint/restrict-template-expressions': 'off',
+
 				// New
 				'@typescript-eslint/explicit-function-return-type': 'error',
 				'@typescript-eslint/explicit-member-accessibility': ['error', {

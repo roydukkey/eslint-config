@@ -1,17 +1,24 @@
-﻿# User-specific files
-.DS_Store
-*.vs
-*.user
+﻿# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Package Managers
+# Dependency Management
 node_modules
-npm-debug.log
-*.lock.json
-*-lock.json
 *.tgz
 
 # Build Artifacts
 dist
-package
-*.backup
 *.cache
+
+# IDEs and Editors
+.vscode/*
+!.vscode/cspell.json
+!.vscode/extensions.json
+
+# User-specific files
+*.backup
+*.local
+*.user
+*.vs
+
+# System Files
+.DS_Store
+Thumbs.db

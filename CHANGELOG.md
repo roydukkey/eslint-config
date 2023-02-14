@@ -3,6 +3,11 @@
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
 <!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.4...master) -->
 
+## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.4...master)
+
+* Refactor to improve rule inheritance and overrides
+* Adds support for optional Vue linting
+
 ## [2.0.4](https://github.com/roydukkey/eslint-config/compare/v2.0.3...v2.0.4)
 
 * Only apply `recommended-requiring-type-checking` to `*.ts?(x)` and `*.{m,c}ts`

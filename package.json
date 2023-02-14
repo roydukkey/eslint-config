@@ -1,6 +1,6 @@
 {
 	"name": "@roydukkey/eslint-config",
-	"description": "My strict configuration for eslint with TypeScript.",
+	"description": "My strict configuration for eslint with TypeScript",
 	"version": "2.0.4",
 	"author": {
 		"name": "roydukkey",
@@ -27,32 +27,40 @@
 		"./LICENSE",
 		"./README.md"
 	],
+	"packageManager": "pnpm@7.27.0",
 	"devDependencies": {
 		"@tsconfig/node16-strictest": "^1.0.4",
-		"@types/node": "^18.7.23",
-		"@typescript-eslint/eslint-plugin": "^5.38.1",
-		"@typescript-eslint/parser": "^5.38.1",
-		"clean-package": "^2.1.1",
-		"cspell": "^6.12.0",
-		"eslint": "^8.24.0",
+		"@typescript-eslint/eslint-plugin": "^5.52.0",
+		"@typescript-eslint/parser": "^5.52.0",
+		"clean-package": "^2.2.0",
+		"cspell": "^6.24.0",
+		"eslint": "^8.34.0",
 		"eslint-plugin-tsdoc": "^0.2.17",
+		"eslint-plugin-vue": "^9.9.0",
 		"npm-run-all": "^4.1.5",
-		"typescript": "^4.8.4"
+		"typescript": "^4.9.5"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": ">=4",
-		"@typescript-eslint/parser": ">=4",
-		"eslint": ">=7",
-		"eslint-plugin-tsdoc": ">=0.2.10"
+		"@typescript-eslint/eslint-plugin": ">=5.52",
+		"@typescript-eslint/parser": ">=5.52",
+		"eslint": ">=8",
+		"eslint-plugin-tsdoc": ">=0.2.10",
+		"eslint-plugin-vue": ">=9.8"
+	},
+	"peerDependenciesMeta": {
+		"eslint-plugin-vue": {
+			"optional": true
+		}
 	},
 	"engines": {
-		"node": ">=16"
+		"node": ">=16",
+		"pnpm": ">=7"
 	},
 	"scripts": {
 		"clean-package": "clean-package",
-		"lint": "run-s lint:spelling lint:src",
-		"lint:spelling": "cspell --config './.vscode/cSpell.json' --no-progress '**/{.*/**/,.*/**/.,,.}*'",
-		"lint:src": "eslint './**/*.?(m|c){j,t}s?(x)'",
+		"lint": "run-s lint:*",
+		"lint:spelling": "cspell lint --config './.vscode/cspell.json' --no-progress --show-context --relative '**'",
+		"lint:src": "eslint './**/*.@(?(m|c)@(j|t)s|@(j|t)sx|vue)'",
 		"prepack": "run-s lint clean-package",
 		"package": "yarn pack && clean-package restore",
 		"publish-package": "yarn publish && clean-package restore"

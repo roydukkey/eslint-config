@@ -1,9 +1,9 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.4...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v3.0.0...master) -->
 
-## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v2.0.4...master)
+## [3.0.0](https://github.com/roydukkey/eslint-config/compare/v2.0.4...v3.0.0)
 
 * Refactor to improve rule inheritance and overrides
 * Adds support for optional Vue linting

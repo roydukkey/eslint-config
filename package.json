@@ -61,8 +61,8 @@
 		"lint:spelling": "cspell lint --config './.vscode/cspell.json' --no-progress --show-context --relative '**'",
 		"lint:src": "eslint './**/*.@(?(m|c)@(j|t)s|@(j|t)sx|vue)'",
 		"prepack": "run-s lint clean-package",
-		"package": "yarn pack && clean-package restore",
-		"publish-package": "yarn publish && clean-package restore"
+		"package": "pnpm pack && clean-package restore",
+		"publish-package": "pnpm publish && clean-package restore"
 	},
 	"clean-package": {
 		"extends": "clean-package/common",

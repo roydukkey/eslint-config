@@ -148,6 +148,9 @@ module.exports = {
 		},
 		{
 			files: ['*.ts?(x)', '*.@(m|c)ts'],
+			plugins: [
+				'eslint-plugin-tsdoc'
+			],
 			extends: 'plugin:@typescript-eslint/recommended-requiring-type-checking',
 			rules: {
 				// Additional @typescript-eslint

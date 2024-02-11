@@ -1,7 +1,11 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v3.0.1...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v3.0.2...master) -->
+
+## [3.0.2](https://github.com/roydukkey/eslint-config/compare/v3.0.1...v3.0.2)
+
+* Update `eslint-plugin-vue` added several new rules
 
 ## [3.0.1](https://github.com/roydukkey/eslint-config/compare/v3.0.0...v3.0.1)
 

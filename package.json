@@ -1,7 +1,7 @@
 {
 	"name": "@roydukkey/eslint-config",
 	"description": "My strict configuration for eslint with TypeScript",
-	"version": "3.0.2",
+	"version": "4.0.0",
 	"author": {
 		"name": "roydukkey",
 		"email": "contact@changelog.me",
@@ -20,40 +20,49 @@
 		"eslint",
 		"eslintconfig"
 	],
-	"main": "./src/index.cjs",
+	"type": "module",
+	"engines": {
+		"node": ">=20.11.0 || >=22"
+	},
+	"exports": {
+		"types": "./src/types.d.ts",
+		"import": "./src/index.js"
+	},
 	"files": [
 		"./src/**",
 		"./CHANGELOG.md",
 		"./LICENSE",
 		"./README.md"
 	],
-	"packageManager": "pnpm@7.27.0",
+	"packageManager": "pnpm@9.15.4",
 	"devDependencies": {
-		"@tsconfig/node16-strictest": "^1.0.4",
-		"@typescript-eslint/eslint-plugin": "^5.52.0",
-		"@typescript-eslint/parser": "^5.52.0",
+		"@eslint/js": "^9.18.0",
+		"@stylistic/eslint-plugin": "^2.13.0",
+		"@tsconfig/node20": "^20.1.4",
+		"@tsconfig/strictest": "^2.0.5",
+		"@types/node": "ts5.7",
+		"@typescript-eslint/eslint-plugin": "^8.21.0",
+		"@typescript-eslint/parser": "^8.21.0",
 		"clean-package": "^2.2.0",
-		"cspell": "^6.24.0",
-		"eslint": "^8.34.0",
-		"eslint-plugin-tsdoc": "^0.2.17",
-		"eslint-plugin-vue": "^9.21.1",
+		"cspell": "^8.17.2",
+		"eslint": "^9.18.0",
+		"eslint-plugin-vue": "^9.32.0",
+		"globals": "^15.14.0",
 		"npm-run-all": "^4.1.5",
-		"typescript": "^4.9.5"
+		"typescript": "~5.7.3",
+		"typescript-eslint": "^8.21.0"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": ">=5.52",
-		"@typescript-eslint/parser": ">=5.52",
-		"eslint": ">=8",
-		"eslint-plugin-tsdoc": ">=0.2.10",
-		"eslint-plugin-vue": ">=9.16"
+		"@stylistic/eslint-plugin": ">=2.13",
+		"@typescript-eslint/eslint-plugin": ">=8.21",
+		"@typescript-eslint/parser": ">=8.21",
+		"eslint": ">=9.18",
+		"eslint-plugin-vue": ">=9.32"
 	},
 	"peerDependenciesMeta": {
 		"eslint-plugin-vue": {
 			"optional": true
 		}
-	},
-	"engines": {
-		"node": ">=16"
 	},
 	"scripts": {
 		"clean-package": "clean-package",
@@ -71,12 +80,5 @@
 			"scripts",
 			"packageManager"
 		]
-	},
-	"eslintConfig": {
-		"root": true,
-		"extends": "./src/index.cjs",
-		"env": {
-			"node": true
-		}
 	}
 }

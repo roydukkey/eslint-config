@@ -1,0 +1,16 @@
+{
+	"extends": [
+		"@tsconfig/strictest/tsconfig.json",
+		"@tsconfig/node20/tsconfig.json",
+	],
+	"compilerOptions": {
+		"types": [
+			"node",
+		],
+		"noEmit": true,
+		"exactOptionalPropertyTypes": false,
+	},
+	"include": [
+		"./",
+	],
+}

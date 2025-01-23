@@ -14,3 +14,4 @@ insert_final_newline = true
 indent_style = space
 # https://github.com/microsoft/vscode/issues/1679
 trim_trailing_whitespace = false
+max_line_length = off

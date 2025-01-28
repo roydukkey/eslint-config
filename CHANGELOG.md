@@ -1,7 +1,12 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v4.0.1...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v4.0.2...master) -->
+
+## [4.0.2](https://github.com/roydukkey/eslint-config/compare/v4.0.1...v4.0.2)
+
+* Disable deprecated `vue/component-tags-order`
+* Fix `vue/object-curly-spacing` configuration
 
 ## [4.0.1](https://github.com/roydukkey/eslint-config/compare/v4.0.0...v4.0.1)
 

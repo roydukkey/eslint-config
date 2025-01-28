@@ -55,6 +55,7 @@ if (vueEslint) {
 					],
 					alphabetical: false,
 				}],
+				'vue/component-tags-order': 'off', // replaced by `vue/block-order`
 				'vue/block-order': ['error', {
 					order: [
 						'template',

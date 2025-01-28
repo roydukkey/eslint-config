@@ -1,4 +1,5 @@
 import rule from '../util/rule.js';
+import { parser } from 'typescript-eslint';
 
 /** @type {import('typescript-eslint').InfiniteDepthConfigWithExtends} */
 const config = [];
@@ -10,6 +11,12 @@ if (vueEslint) {
 		extends: [
 			vueEslint.configs['flat/essential'],
 		],
+		languageOptions: {
+			parserOptions: {
+				parser,
+				extraFileExtensions: ['.vue'],
+			},
+		},
 	};
 
 	const strongRecommendedOnly = vueEslint.configs['flat/recommended'].find(({ name }) => name === 'vue/strongly-recommended/rules');
@@ -136,6 +143,8 @@ if (vueEslint) {
 			},
 		},
 	]);
+
+	config.push(vueConfig);
 }
 
 export default config;

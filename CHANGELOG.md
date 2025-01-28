@@ -1,7 +1,15 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v3.0.2...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v4.0.1...master) -->
+
+## [4.0.1](https://github.com/roydukkey/eslint-config/compare/v4.0.0...v4.0.1)
+
+* Fix Vue configuration
+
+## [4.0.0](https://github.com/roydukkey/eslint-config/compare/v3.0.2...v4.0.0)
+
+* Rewrite to support flat config and new rule
 
 ## [3.0.2](https://github.com/roydukkey/eslint-config/compare/v3.0.1...v3.0.2)
 

@@ -137,7 +137,7 @@ if (vueEslint) {
 				}],
 				'vue/key-spacing': 'error',
 				'vue/no-extra-parens': 'error',
-				'vue/object-curly-spacing': 'error',
+				'vue/object-curly-spacing': ['error', 'always'],
 				'vue/quote-props': ['error', 'consistent-as-needed'],
 				'vue/space-in-parens': 'error',
 			},

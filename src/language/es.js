@@ -7,7 +7,7 @@ import stylistic from '@stylistic/eslint-plugin';
  * @param {Pick<import('@typescript-eslint/parser').ParserOptions, 'tsconfigRootDir' | 'project'> } options
  * @returns {import('typescript-eslint').InfiniteDepthConfigWithExtends}
  */
-export default ({ tsconfigRootDir, project = './**/tsconfig.eslint.json' }) => [
+export default ({ tsconfigRootDir, project }) => [
 	eslint.configs.recommended,
 
 	// Additional eslint rules
@@ -132,7 +132,7 @@ export default ({ tsconfigRootDir, project = './**/tsconfig.eslint.json' }) => [
 		languageOptions: {
 			parserOptions: {
 				project,
-				projectService: true,
+				projectService: project === undefined,
 				tsconfigRootDir,
 			},
 		},

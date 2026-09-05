@@ -1,4 +1,4 @@
-import { config } from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 import esLanguage from './language/es.js';
 import vueLanguage from './language/vue.js';
 
@@ -11,7 +11,7 @@ import vueLanguage from './language/vue.js';
  *
  * @returns {import('typescript-eslint').ConfigArray}
  */
-export default (options) => config(
+export default (options) => defineConfig(
 	esLanguage(options),
 	vueLanguage,
 	{

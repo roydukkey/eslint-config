@@ -1,7 +1,10 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v4.0.3...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v5.0.0...master) -->
+
+## [5.0.0](https://github.com/roydukkey/eslint-config/compare/v4.0.3...v5.0.0)
+* Drop support for ESLint v9
 
 ## [4.0.3](https://github.com/roydukkey/eslint-config/compare/v4.0.2...v4.0.3)
 * Default to `projectService` instead of `project`

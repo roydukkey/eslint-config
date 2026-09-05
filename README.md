@@ -39,10 +39,10 @@ Here is an example for configuring ESLint from the `package.json` and `eslint.co
 ```
 
 ```js
-import { config } from 'typescript-eslint';
+import { defineConfig } from 'eslint/config';
 import roydukkeyConfig from '@roydukkey/eslint-config';
 
-export default config(
+export default defineConfig(
   ...roydukkeyConfig({
     tsconfigRootDir: import.meta.dirname,
   }),

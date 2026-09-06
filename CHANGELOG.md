@@ -1,7 +1,10 @@
 # Changelog
 
 <!-- The order of list items should be: Critical/Fixes, New, Update, Remove, Underpinnings -->
-<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v5.0.0...master) -->
+<!-- ## [UNRELEASED](https://github.com/roydukkey/eslint-config/compare/v5.0.1...master) -->
+
+## [5.0.1](https://github.com/roydukkey/eslint-config/compare/v5.0.0...v5.0.1)
+* add missing `@eslint/js` peer dep
 
 ## [5.0.0](https://github.com/roydukkey/eslint-config/compare/v4.0.3...v5.0.0)
 * Drop support for ESLint v9

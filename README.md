@@ -12,6 +12,7 @@ Install the packages:
 ```bash
 pnpm add --save-dev \
 @roydukkey/eslint-config \
+@eslint/js \
 @typescript-eslint/eslint-plugin \
 @typescript-eslint/parser \
 eslint

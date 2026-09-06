@@ -57,6 +57,7 @@
 		"vue-eslint-parser": "^10.4.1"
 	},
 	"peerDependencies": {
+		"@eslint/js": ">=10",
 		"@stylistic/eslint-plugin": ">=5.10",
 		"@typescript-eslint/eslint-plugin": ">=8.69",
 		"@typescript-eslint/parser": ">=8.69",
